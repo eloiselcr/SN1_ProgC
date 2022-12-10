@@ -17,9 +17,9 @@
 // ------- Exercice 1 ------- 
 
 	// adr1 et adr2 sont des pointeurs pointant sur des reels.
-	// Le contenu de ou pointe adr1 vaut - 45, 78; le contenu de où pointe adr2 vaut 678, 89.
-	// Ecrire un programme qui ne contient que deux variables(adr1 et adr2) de type
-	// pointeurs sur reel, qui stocke deux valeurs reelles(-45.78 et 678.89) et qui affiche les
+	// Le contenu de ou pointe adr1 vaut - 45, 78; le contenu de ou pointe adr2 vaut 678, 89.
+	// Ecrire un programme qui ne contient que deux variables (adr1 et adr2) de type
+	// pointeurs sur reel, qui stocke deux valeurs reelles (-45.78 et 678.89) et qui affiche les
 	// adresses des espaces memoires qui stockent les deux reels ainsi que le contenu de
 	// ces deux espaces.
 
@@ -107,10 +107,10 @@ int main(int argc, char** argv)
 // ------- Exercice 5 ------- 
 
 	// Calculer et afficher les racines de ax2+bx+c=0.
-	// Une fonction de prototype void saisie (float *aa, float *bb, float *cc) permet de saisir
+	// Une fonction de prototype void saisie(float *aa, float *bb, float *cc) permet de saisir
 	// a, b, c.
 	// Une fonction de prototype float *calcul(float aa, float bb, float cc) exécute les
 	// calculs et renvoie les résultats.
-	// a, b, c sont des variables locales à main();
-	// main() se contente de saisir a, b et c puis d'appeler saisie et calcul et d’afficher les
+	// a, b, c sont des variables locales a main();
+	// main() se contente de saisir a, b et c puis d appeler saisie et calcul et d afficher les
 	// solutions.
