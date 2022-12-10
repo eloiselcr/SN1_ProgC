@@ -8,8 +8,6 @@
 #include <string.h>
 
 
-
-
 // 2 / 5 Exercices 
 
 
