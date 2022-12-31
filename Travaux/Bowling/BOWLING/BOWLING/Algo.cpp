@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+#include <conio.h >
 
 
 // FONCTION NOMBRE DE JOUEURS
@@ -31,10 +32,13 @@ int main(int argc, char** argv)
 
 
 // FONCTION INITIALISATION DES DONNEES DE PARTIE (à mettre au début)
-
+/*
 int main(int argc, char** argv)
 {
 	char namej1, namej2, namej3, namej4, namej5, namej6;
+
+	int tours = 10;
+	int comptage = 0;
 
 	int t1l1j1 = 0, t1l1j2 = 0, t1l1j3 = 0, t1l1j4 = 0, t1l1j5 = 0, t1l1j6 = 0;
 	int t1l2j1 = 0, t1l2j2 = 0, t1l2j3 = 0, t1l2j4 = 0, t1l2j5 = 0, t1l2j6 = 0;
@@ -80,4 +84,29 @@ int main(int argc, char** argv)
 
 	int scoretotalj1 = 0, scoretotalj2 = 0, scoretotalj3 = 0, scoretoralj4 = 0, scoretotalj5 = 0, scoretotalj6 = 0;
 
+
+	printf("Bienvenue dans le jeu du Bowling !\n");
+
+	int nbjoueurs = 0;
+	while (nbjoueurs <= 1 || nbjoueurs > 6)
+	{
+		printf("Rentrer le nombre de joueur : ");
+		scanf("%d", &nbjoueurs);
+
+		if (nbjoueurs <= 1 || nbjoueurs > 6)
+		{
+			printf("Ce nombre de joueurs n'est pas valide. Pour rappel, celui-ci doit etre entre 1 et 6 pour respecter les regles.\n\n");
+		}
+	}
+
+	printf("Le nombre de joueurs est de : %d", nbjoueurs);
+
+	while (comptage < tours)
+	{
+		printf("Le joueur 1 entre sur la piste. Appuyez sur '*' pour lancer votre boule.");
+
+	}
+
+
 }
+*/
